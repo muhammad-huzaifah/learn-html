@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Attribute List</title>
+</head>
+<body>
+
+    <h1>The input list attribute</h1>
+
+    <p>The list attribute refers to a datalist element that contains pre-defined option for an input element.</p>
+
+    <form action="/action_page.php">
+        <input list="browser" name="browser">
+        <datalist id="browser">
+            <option value="Internet Explorer"></option>
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+        </datalist>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p><b>Note:</b> The datalist tag is not supported in Safar 12.0 (or earlier).</p>
+
+</body>
+</html>
